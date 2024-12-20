@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                  // Используем стандарт ES6
+    "module": "commonjs",            // Используем модульную систему CommonJS
+    "outDir": "./dist",              // Компилированный код будет в папке dist
+    "rootDir": "./src",              // Исходные файлы будут в папке src
+    "strict": true,                  // Включает строгую типизацию
+    "esModuleInterop": true,         // Позволяет работать с модулями ES6
+    "skipLibCheck": true             // Пропуск проверки типизации библиотек
+  },
+  "include": ["src/**/*"],           // Учитывать файлы внутри папки src
+  "exclude": ["node_modules"]        // Игнорировать node_modules
+}
